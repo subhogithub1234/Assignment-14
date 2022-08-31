@@ -1,0 +1,7 @@
+x=int(input(("Enter the length of list:")))
+i5=[]
+print("Enter the numbers:")
+for i in range(x):
+    x=int(input())
+    i5.append(x)
+print("The sum of the numbers are",sum(i5))    
